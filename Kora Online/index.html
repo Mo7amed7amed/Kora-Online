@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap CSS CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+    integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  <!-- Scrollbar Custom CSS -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+
+  <title>Kora Online</title>
+</head>
+
+<body>
+  <header>
+  <nav class="navbar fixed-top">
+
+    <div class="navbar_left">
+      <ul class="navbar-nav ">
+        <div class="container">
+          <li><a href="#"> <i class="fa fa-search fa-2x"></i></a></li>
+          <li><a href="# " target="_blank"><i class="fa fa-instagram fa-2x "></i></a></li>
+          <li><a href="# " target="_blank"><i class="fa fa-youtube fa-2x "></i></a></li>
+          <li><a href="# " target="_blank"><i class="fa fa-twitter fa-2x"></i></a></li>
+          <li><a href="# " target="_blank"><i class="fa fa-facebook  fa-2x "></i></a></li>
+          <!-- <a class="searchBtn icon-search"><span class="closeSearch"></span></a> -->
+        </div>
+      </ul>
+    </div>
+
+    <div class="navbar_right">
+      <ul class="navbar-nav">
+        <div class="container">
+          <li class="nav-item"><a class="nav-link not">رياضات أخرى</a></li>
+          <li class="nav-item"><a class="nav-link">نجوم الفانتازى</a></li>
+          <li class="nav-item"><a class="nav-link">مالتيميديا</a></li>
+          <li class="nav-item"><a class="nav-link">دوريات وبطولات</a></li>
+          <li class="nav-item"><a class="nav-link">الأخبار</a></li>
+          <li class="nav-item"><a class="nav-link"><span class="sr-only">(current)</span>المباريات</a></li>
+          <li class="nav-item"><a class="kora_online">KORA ONLINE </a></li>
+          <button class="openbtn bg-dark" onclick="openNav()">&#9776;</button>
+          <!-- <button class="openbtn bg-dark" onclick="myFunction()">&#9776;</button> -->
+        </div>
+      </ul>
+    </div>
+  </nav>
+
+      
+</header>
+  <div id="mySidepanel" class="sidepanel">
+    <!-- <div class="container side"> -->
+    <div class="row">
+
+      <div class="col-lg-10 col-md-12 left-panel">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 ">
+            <div class="title">عربية </div>
+            <ul>
+              <li>الدوري السعودي</li>
+              <li> الدوري الإماراتي</li>
+              <li>الدوري المغربي</li>
+              <li> الدوري التونسي</li>
+              <li> دوري نجوم قطر</li>
+              <li> كأس محمد السادس للأندية الأبطال</li>
+              <li> كأس خادم الحرمين الشريفين</li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 ">
+            <div class="title">قارية</div>
+            <ul>
+              <li>كأس السوبر الإفريقي </li>
+              <li>
+                تصفيات أمم إفريقيا
+              </li>
+              <li>
+                دوري أبطال إفريقيا
+              </li>
+              <li>
+                الكونفيدرالية الإفريقية
+              </li>
+              <li>
+                دوري أبطال أوروبا
+              </li>
+              <li>
+                الدوري الأوروبي
+              </li>
+              <li>
+                دوري الأمم الأوروبية
+              </li>
+              <li>
+                دوري أبطال آسيا
+              </li>
+              <li>
+                تصفيات كأس العالم - أمريكا الجنوبية
+              </li>
+              <li>
+                تصفيات كأس العالم-إفريقيا
+              </li>
+              <li>
+                تصفيات أمم أوروبا
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 ">
+            <div class="title">
+              أوروبية
+            </div>
+
+            <ul>
+              <li>
+                الدوري الإنجليزي
+              </li>
+              <li>
+                الدوري الإسباني
+              </li>
+              <li>
+                الدوري الإيطالي
+              </li>
+              <li>
+                الدوري الألماني
+              </li>
+              <li>
+                الدوري الفرنسي
+              </li>
+              <li>
+                الدوري البرتغالي
+              </li>
+              <li>
+                كأس كاراباو
+              </li>
+              <li>
+                كأس ملك إسبانيا
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="title">
+              محلية
+            </div>
+
+            <ul>
+              <li>
+                دوري WE المصري
+              </li>
+              <li>
+                كأس مصر
+              </li>
+            </ul>
+          </div>
+
+
+
+        </div>
+      </div>
+
+      <div class="col-lg-2 col-md-12 right-panel">
+        <button class="closebtn " onclick="closeNav()">&times;</button>
+
+        <a href="#">المباريات</a>
+        <!-- <div class="line"></div> -->
+        <a href="#">الأخبار</a>
+        <!-- <div class="line"></div> -->
+        <a href="#"> دوريات وبطولات</a>
+        <!-- <div class="line"></div> -->
+        <a href="#">نجوم الفانتازى</a>
+        <!-- <div class="line"></div> -->
+        <a href="#">رياضات أخرى</a>
+      </div>
+
+    </div>
+
+    <!-- </div> -->
+  </div>
+
+
+  <div class="content">
+
+  </div>
+
+
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <h3 class="text-white ml-auto">دوريات وبطولات</h3>
+      <div class="row">
+
+        <div class="col-lg-3 ">
+          <div class="title">
+            عربية
+          </div>
+
+          <ul>
+            <li>
+              الدوري السعودي
+            </li>
+            <li>
+              الدوري الإماراتي
+            </li>
+            <li>
+              الدوري المغربي
+            </li>
+            <li>
+              الدوري التونسي
+            </li>
+            <li>
+              دوري نجوم قطر
+            </li>
+            <li>
+              كأس محمد السادس للأندية الأبطال
+            </li>
+            <li>
+              كأس خادم الحرمين الشريفين
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 ">
+          <div class="title">
+            قارية
+          </div>
+
+          <ul>
+            <li>
+              كأس السوبر الإفريقي
+            </li>
+            <li>
+              تصفيات أمم إفريقيا
+            </li>
+            <li>
+              دوري أبطال إفريقيا
+            </li>
+            <li>
+              الكونفيدرالية الإفريقية
+            </li>
+            <li>
+              دوري أبطال أوروبا
+            </li>
+            <li>
+              الدوري الأوروبي
+            </li>
+            <li>
+              دوري الأمم الأوروبية
+            </li>
+            <li>
+              دوري أبطال آسيا
+            </li>
+            <li>
+              تصفيات كأس العالم - أمريكا الجنوبية
+            </li>
+            <li>
+              تصفيات كأس العالم-إفريقيا
+            </li>
+            <li>
+              تصفيات أمم أوروبا
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 ">
+          <div class="title">
+            أوروبية
+          </div>
+
+          <ul>
+            <li>
+              الدوري الإنجليزي
+            </li>
+            <li>
+              الدوري الإسباني
+            </li>
+            <li>
+              الدوري الإيطالي
+            </li>
+            <li>
+              الدوري الألماني
+            </li>
+            <li>
+              الدوري الفرنسي
+            </li>
+            <li>
+              الدوري البرتغالي
+            </li>
+            <li>
+              كأس كاراباو
+            </li>
+            <li>
+              كأس ملك إسبانيا
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 ">
+          <div class="title">
+            محلية
+          </div>
+
+          <ul>
+            <li>
+              دوري WE المصري
+            </li>
+            <li>
+              كأس مصر
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row">
+        <h1 class="text-center">KORA ONLINE</h1>
+
+        <div class="col-12">
+          <ul class="navbar nav-footer">
+            <div class="container">
+              <li class="nav-item"><a class="nav-link">رياضات أخرى</a></li>
+              <li class="nav-item"><a class="nav-link">نجوم الفانتازى</a></li>
+              <li class="nav-item"><a class="nav-link">مالتيميديا</a></li>
+              <li class="nav-item"><a class="nav-link">دوريات وبطولات</a></li>
+              <li class="nav-item"><a class="nav-link">الأخبار</a></li>
+              <li class="nav-item"><a class="nav-link"><span class="sr-only">(current)</span>المباريات</a></li>
+            </div>
+          </ul>
+        </div>
+        <!-- <p class="m-0 text-center text-white">Copyright @Ragy; 5/11/2020</p> -->
+      </div>
+      <hr>
+  </footer>
+
+  <script src='app.js'></script>
+
+</body>
+
+</html>
